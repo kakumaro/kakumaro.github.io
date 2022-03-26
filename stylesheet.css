@@ -139,6 +139,7 @@
     Top:0px;
     Left:0px;
     opacity:0.8;
+
     
   }
 
@@ -264,7 +265,7 @@
     margin: 0%;
     padding: 0%;
     line-height: 0%;
-    width: 1445px;
+    width: 100%;
   }
 
   .top-wrapper h1{
@@ -352,6 +353,13 @@
     
   }
 
+  .preface-s p{
+    color:black;
+    text-align: center;
+    margin:0%;
+    font-size: 14px;
+  }
+
   .txt-contents{
     text-align: center;
     width: 300px;
@@ -418,6 +426,13 @@
     
   }
 
+  .preface-s p{
+    color:black;
+    text-align: center;
+    margin:0%;
+    font-size: 14px;
+  }
+
   .txt-contents{
     text-align: center;
     width: 300px;
@@ -431,7 +446,7 @@
  /*　画面サイズが1024pxからはここを読み込む　*/
 @media screen and (min-width:1024px) {
   .skill-wrapper{
-    
+    width: 100%;
     height: 600px;
     background-color: antiquewhite;
   }
@@ -449,13 +464,14 @@
     border-bottom: 1px solid dimgray;
     width: 300px;
     margin:auto;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
 
   #skill p{
     text-align: center;
     margin: 0%;
     color:#000808;
+    font-size: 17px;
   }
   
 
@@ -470,15 +486,22 @@
   }
   
   .skills{
-    width: 1430px;
+    width: 100%;
     margin: auto;
+  }
+
+  .preface-s p{
+    color:black;
+    text-align: center;
+    margin:0%;
+    font-size: 14px;
   }
 
   .skill{
     float:left;
     width:23%;
     margin: auto;
-    height: 300px;
+    height: 390px;
     margin: 10px;
     background-color:peru;
     border-radius:10px;
@@ -487,10 +510,10 @@
 
   .txt-contents{
     text-align: center;
-    width: 300px;
+    width: 70%;
     margin: auto;
     color: rgb(36, 39, 41);
-    font-size: 19px;
+    font-size: 17px;
   }
 }
 
@@ -728,12 +751,118 @@
   }
 
   .private-photo img{
-   width: 550px;
-   height: 370px;
-   padding: 10px;
-
+   height: 350px;
+   width: 500px;
+   padding:10px;
   }
  }
+
+
+  /* ブログ */
+  /*　画面サイズが480pxからはここを読み込む　*/
+ @media screen and (min-width:480px) { 
+   .blog-wrapper{
+     height: 1000px;
+     background-color:sienna;
+   }
+
+   #blog h2{
+    color:seashell;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    width: 300px;
+    margin:auto;
+   }
+}
+
+ /*　画面サイズが768pxから1024pxまではここを読み込む　*/
+ @media screen and (min-width:768px) and ( max-width:1024px) {
+  .blog-wrapper{
+    height: 1000px;
+    background-color:sienna;
+  }
+
+  #blog{
+    padding-bottom: 20px;
+  }
+
+  #blog h2{
+   color:seashell;
+   border-bottom: 1px solid rgb(255, 255, 255);
+   width: 300px;
+   margin:auto;
+   margin-bottom: 10px;
+  }
+
+  .blog-photo img{
+    height: 350px;
+    width: 500px;
+    padding:10px;
+   }
+
+  #blog p{
+    margin: 0px;
+  }
+
+  .blog-photo p{
+    color: aliceblue;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+  }
+ }
+
+ /*　画面サイズが1024pxからはここを読み込む　*/
+ @media screen and (min-width:1024px) {
+  .blog-wrapper{
+   height: 1500px;
+   background-color:sienna;
+  }
+
+  #blog{
+   padding-bottom: 20px;
+  }
+
+  #blog h2{
+   color:seashell;
+   border-bottom: 1px solid rgb(255, 255, 255);
+   width: 300px;
+   margin:auto;
+   margin-bottom: 10px;
+   
+  }
+
+  #blog p{
+   margin: 0px;
+   padding: 0px;
+  }
+
+  .blog-photo{
+   display: flex;
+   justify-content: center;
+   padding-bottom: 20px;
+   border-bottom: 1px solid rgb(255, 255, 255);
+  }
+
+  .preface{
+    padding-top: 20px;
+  }
+
+  .blog-photo img{
+   height: 350px;
+   width: 500px;
+   padding:10px;
+  }
+
+  .blog-photo p{
+   color: aliceblue;
+   text-align: center;
+   padding: 0px;
+   margin: 0px;
+  }
+ }
+
+
+
   /* フッター */
 
   .footer{
