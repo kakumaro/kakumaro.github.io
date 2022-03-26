@@ -1,0 +1,136 @@
+@media screen and (min-width: 480px)  { 
+   /*　画面サイズが480pxからはここを読み込む　*/
+  body {
+    font-family: "Avenir Next";
+    width: 100%;
+    margin: 0%;
+    border: rgb(115, 255, 0) 5px solid;
+  }
+}
+
+@media screen and (min-width: 768px) and ( max-width:1024px) { 
+   /*　画面サイズが768pxから1024pxまではここを読み込む　*/
+  body {
+    font-family: "Avenir Next";
+    width: 100%;
+    margin: 0%;
+    border: rgb(238, 46, 12) 5px solid;
+  }
+}
+
+@media screen and (min-width:1024px) {
+  /*　画面サイズが1024pxからはここを読み込む　*/
+  body {
+    font-family: "Avenir Next";
+    width: 100%;
+    margin: 0%;
+    border: blue 5px solid;
+  }
+}
+
+  li {
+    list-style: none;
+
+  }
+/* ブログ */
+  /*　画面サイズが480pxからはここを読み込む　*/
+ @media screen and (min-width:480px) { 
+   .blog-wrapper{
+     height: 1000px;
+     background-color:sienna;
+   }
+
+   #blog h2{
+    color:seashell;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    width: 300px;
+    margin:auto;
+   }
+}
+
+ /*　画面サイズが768pxから1024pxまではここを読み込む　*/
+ @media screen and (min-width:768px) and ( max-width:1024px) {
+  .blog-wrapper{
+    height: 1000px;
+    background-color:sienna;
+  }
+
+  #blog{
+    padding-bottom: 20px;
+  }
+
+  #blog h2{
+   color:seashell;
+   border-bottom: 1px solid rgb(255, 255, 255);
+   width: 300px;
+   margin:auto;
+   margin-bottom: 10px;
+  }
+
+  .blog-photo img{
+    height: 350px;
+    width: 500px;
+    padding:10px;
+   }
+
+  #blog p{
+    margin: 0px;
+  }
+
+  .blog-photo p{
+    color: aliceblue;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+  }
+ }
+
+ /*　画面サイズが1024pxからはここを読み込む　*/
+ @media screen and (min-width:1024px) {
+  .blog-wrapper{
+   height: 1500px;
+   background-color:sienna;
+  }
+
+  #blog{
+   padding-bottom: 20px;
+  }
+
+  #blog h2{
+   color:seashell;
+   border-bottom: 1px solid rgb(255, 255, 255);
+   width: 300px;
+   margin:auto;
+   margin-bottom: 10px;
+   
+  }
+
+  #blog p{
+   margin: 0px;
+   padding: 0px;
+  }
+
+  .blog-photo{
+   display: flex;
+   justify-content: center;
+   padding-bottom: 20px;
+   border-bottom: 1px solid rgb(255, 255, 255);
+  }
+
+  .preface{
+    padding-top: 20px;
+  }
+
+  .blog-photo img{
+   height: 350px;
+   width: 500px;
+   padding:10px;
+  }
+
+  .blog-photo p{
+   color: aliceblue;
+   text-align: center;
+   padding: 0px;
+   margin: 0px;
+  }
+ }
